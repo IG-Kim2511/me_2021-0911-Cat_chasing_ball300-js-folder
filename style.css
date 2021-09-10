@@ -1,20 +1,40 @@
 .ball {
   background-color: red;
-  width: 30px;
+  width: 30px; /* 🍀js 5. */
   height: 30px;
 
   position: absolute;
-  left: 350px;
-  top: 250px;
+  left: 0;
+  top: 0;
 
   border-radius: 50%;
 
   transition: 0.5s;
   /* 🍀js 10
     transform: ; */
+    
+}
+
+.cat{
+    transition: 0.5s;
+/* 🍀js 10
+    transform: ; */
+
 }
 
 /* 🍀js 20 */
 .ball.end {
 background: dodgerblue;
 }
+
+.title{
+    position: absolute;
+
+    top: 50%;
+  
+    left: 50%;
+  
+    transform: translate(-50%, -50%);
+    
+}
+
