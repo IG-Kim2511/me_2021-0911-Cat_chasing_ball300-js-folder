@@ -1,0 +1,20 @@
+.ball {
+  background-color: red;
+  width: 30px;
+  height: 30px;
+
+  position: absolute;
+  left: 350px;
+  top: 250px;
+
+  border-radius: 50%;
+
+  transition: 0.5s;
+  /* 🍀js 10
+    transform: ; */
+}
+
+/* 🍀js 20 */
+.ball.end {
+background: dodgerblue;
+}
