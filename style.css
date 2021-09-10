@@ -16,7 +16,8 @@
 }
 
 .cat{
-    transition: 0.5s;
+    transition: 1s;
+    transform:  rotateY(180deg);
 /* 🍀js 10
     transform: ; */
 
