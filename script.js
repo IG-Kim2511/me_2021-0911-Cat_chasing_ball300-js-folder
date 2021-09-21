@@ -21,26 +21,6 @@ window.addEventListener('click',(e)=>{
 
 //event. transition
 
-ballElem.addEventListener('transitionstart',(e)=>{
- 
+ballElem.addEventListener('transitionstart',(e)=>{ 
     ballElem.classList.add('end');
-
-
 });
-
-  //   🍀resize
-
-  let maxSize;
-
-  window.addEventListener("resize", resizeHandler);
-
-  function resizeHandler() {
-    maxSize = window.innerWidth;
-    console.log(maxSize);
-  }
-  resizeHandler();
-
-  console.log(maxSize);
-
-
-//function
