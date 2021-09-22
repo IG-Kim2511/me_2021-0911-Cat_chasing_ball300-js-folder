@@ -24,3 +24,19 @@ window.addEventListener('click',(e)=>{
 ballElem.addEventListener('transitionstart',(e)=>{ 
     ballElem.classList.add('end');
 });
+
+
+// 
+/* 🍀다음 e.clientX가 eClientX_Next보다 적으면, img에 180deg 넣기
+let eClientX_Next;
+
+if (e.clientX < eClientX_Next  ) {
+      catElem.style.transform = `rotateY(180deg) translateX(${
+      e.clientX - 350}px) translateY(${e.clientY - 150}px)`;
+    }else{
+        catElem.style.transform = `rotateY(0deg) translateX(${
+         e.clientX - 350}px) translateY(${e.clientY - 150}px)`;
+    }
+    
+eClientX_Next = e.clientX;
+ */
